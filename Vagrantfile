@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
         vsphere.data_center_name	  	  = '55Illinois'
         vsphere.compute_resource_name 	= 'DCS-Cloud'
         vsphere.resource_pool_name    	= 'vagrant-pool'
-        vsphere.template_name         	= 'Templates/vagrant/ubuntu_base'
+        vsphere.template_name         	= 'Templates/vagrant/photon_tp2_base'
         vsphere.vm_base_path          	= 'Compute/vagrant-machines'
         vsphere.data_store_name		= 'vsanDatastore'
         vsphere.user     = 'vagrant@vsphere.local'
